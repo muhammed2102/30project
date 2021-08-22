@@ -136,7 +136,7 @@ function keyPressed(){
   //if(keyCode === 22)
   //if(keyCode === 30)
   //if(keyCode === 32)
-  {
+  if(keyCode === 32){
       slingShot.attach(this.ball);
   }
 }

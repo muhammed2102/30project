@@ -23,7 +23,7 @@ class Block{
         }
         else{
 
-          //World.remove(world, this.body);
+          World.remove(world, this.body);
           //World.remove(world, this.image);
           // World.add(world, this.body);
           // World.destroy(world, this.body);
@@ -31,7 +31,7 @@ class Block{
           push();
           
           //this.visiblity = 255;
-          //this.visiblity = this.visiblity - 5;
+          this.visiblity = this.visiblity - 6;
           //this.visiblity = this.x;
           //this.visiblity = this.body.position.x;
         
